@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="ServiceStack.Text" Version="6.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GitIssues">
+      <HintPath>..\..\GitIssues\GitIssues\bin\Debug\net7.0\GitIssues.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
